@@ -1,4 +1,4 @@
 #/bin/bash
 
 sudo apt install -y unzip 
-echo "hello" > /tmp/test
+echo "hello kirti" > /tmp/test
