@@ -40,4 +40,8 @@ sudo apt-get install mono-devel -y
 # Add user to the 'docker' group
 sudo usermod -aG docker $USER
 sudo snap install kubelogin
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt-get install -y python3.10
+
 echo "hello kirit updated" > /tmp/test
