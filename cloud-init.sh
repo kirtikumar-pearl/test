@@ -40,3 +40,4 @@ sudo apt-get install mono-devel -y
 # Add user to the 'docker' group
 sudo usermod -aG docker $USER
 sudo snap install kubelogin
+sudo apt-get remove docker-compose-plugin
