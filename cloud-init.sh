@@ -40,5 +40,6 @@ sudo apt-get install mono-devel -y
 # Add user to the 'docker' group
 sudo usermod -aG docker $USER
 sudo snap install kubelogin
+sudo echo "172.18.96.4 aks-v1cbfmyo.acb471d6-b215-493e-a1cb-7de32affa6fe.privatelink.canadacentral.azmk8s.io" >> /etc/hosts
 #host-manager -add aks-v1cbfmyo.acb471d6-b215-493e-a1cb-7de32affa6fe.privatelink.canadacentral.azmk8s.io 172.18.96.4
 
