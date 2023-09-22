@@ -46,7 +46,7 @@ sudo snap install kubelogin
 sudo echo "172.18.96.4 aks-v1cbfmyo.acb471d6-b215-493e-a1cb-7de32affa6fe.privatelink.canadacentral.azmk8s.io" >> /etc/hosts
 
 #Aks-CfTmsApps-Core-Prod-01
-sudo echo "172.18.30.4 dns-aks-cftmsapps-core-prod-01-6223bf63.hcp.canadacentral.azmk8s.io" >> /etc/hosts
+sudo echo "172.18.30.4 dns-aks-cftmsapps-core-prod-01-99595658.ff54d74e-c5fe-457f-b4a9-01fa57a684dc.privatelink.canadacentral.azmk8s.io" >> /etc/hosts
 
 #aks-chargerfleet-prod-scus-003
 sudo echo "172.25.144.4 aks-z4uobfrd.c0620094-3d10-4da0-94a0-dff646c1fcf9.privatelink.southcentralus.azmk8s.io" >> /etc/hosts
